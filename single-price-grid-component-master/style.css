@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background: hsl(204, 43%, 93%);
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+.container{
+    background: #ffffff;
+    border-radius: 0.5rem;
+    width: 40vw;
+}
+.grid{
+    width: 40vw;
+    display: flex;
+    height: 28vh;
+    color: hsl(204, 43%, 93%);
+}
+li{
+    list-style: none;
+    line-height: 1.5rem;
+    color: hsl(205, 55%, 92%);
+}
+.tread{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.tread h5{
+    width: 30vw;
+    font-size: 16px;
+    color: hsl(204, 4%, 76%);
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+}
+.tree span{
+    color: hsl(203, 22%, 79%);
+    font-size: 12px;
+    padding-left: 1rem;
+}
+.tree h4{
+    font-size: 1.5rem;
+}
+.tree{
+    background: hsl(179, 62%, 43%);
+    width: 45vw;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    line-height: 1rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.tree h1,h3{
+    color: #ffffff;
+}
+.branch{
+    background: hsl(179, 52%, 59%);
+    width: 45vw;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+span{
+    color: hsl(71, 66%, 63%);
+}
+button{
+    font-size: 15px;
+    color: #ffffff;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 3px;
+    border-style: none;
+    align-items: center;
+    justify-content: center;
+    background: hsl(71, 89%, 51%);
+    box-shadow: 0px 6px rgba(80, 76, 76, 0.1);
+
+}
