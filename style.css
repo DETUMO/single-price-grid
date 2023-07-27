@@ -83,5 +83,12 @@ button{
     justify-content: center;
     background: hsl(71, 89%, 51%);
     box-shadow: 0px 6px rgba(80, 76, 76, 0.1);
-
 }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
