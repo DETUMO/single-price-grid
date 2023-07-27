@@ -6,6 +6,7 @@
 }
 body{
     background: hsl(204, 43%, 93%);
+    font-size: 15px;
 }
 main{
     display: flex;
